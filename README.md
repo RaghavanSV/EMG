@@ -37,19 +37,19 @@ This tool is intended strictly for **educational**, **research**, and **defensiv
 ## Project Directory Structure
 ```
 EMG/
-├─ good_strings/ # Collection of benign string samples
-│ ├─ good1.txt
-│ └─ good2.txt
-├─ trusted/ # Trusted binaries or reference binaries
-├─ feature_extraction2.py # Script for feature extraction
-├─ malconv.py # Implementation / interface for MalConv model
-├─ malconv.h5 # Pretrained MalConv model weights
-├─ modifier.py # Binary modification utilities
-├─ optimised_miniproject_code3.py# Main/optimized project script
-├─ requirements.txt # Python dependencies
-├─ section_names.txt # List of PE section names
-├─ small_dll_imports.json # JSON with sample DLL imports
-└─ README.md # Project documentation
+├── good_strings/                   # Collection of benign string samples
+│   ├── good1.txt
+│   └── good2.txt
+├── trusted/                        # Trusted binaries or reference binaries
+├── feature_extraction2.py          # Script for feature extraction
+├── malconv.py                      # Implementation / interface for MalConv model
+├── malconv.h5                      # Pretrained MalConv model weights
+├── modifier.py                     # Binary modification utilities
+├── emg.py                          # Main/optimized project script
+├── requirements.txt                # Python dependencies
+├── section_names.txt               # List of PE section names
+├── small_dll_imports.json          # JSON with sample DLL imports
+└── README.md                       # Project documentation
 ```
 ---
 
