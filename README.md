@@ -35,7 +35,7 @@ This tool is intended strictly for **educational**, **research**, and **defensiv
 
 ---
 ## Project Directory Structure
-
+```
 EMG/
 ├─ good_strings/ # Collection of benign string samples
 │ ├─ good1.txt
@@ -50,7 +50,7 @@ EMG/
 ├─ section_names.txt # List of PE section names
 ├─ small_dll_imports.json # JSON with sample DLL imports
 └─ README.md # Project documentation
-
+```
 ---
 
 ---
