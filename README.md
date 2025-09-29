@@ -13,21 +13,21 @@ This tool is intended strictly for **educational**, **research**, and **defensiv
 
 ## Modifications
 
-| "pad_overlay" |
-| "append_benign_data_overlay" |
-| "append_benign_binary_overlay" |
-| "add_bytes_to_section_cave" |
-| "add_section_strings" |
-| "add_section_benign_data" |
-| "add_strings_to_overlay" |
-| "add_imports" |
-| "rename_section" |
-| "remove_debug" |
-| "modify_optional_header" |
-| "modify_timestamp" |
+| "pad_overlay"                    |
+| "append_benign_data_overlay"     |
+| "append_benign_binary_overlay"   |
+| "add_bytes_to_section_cave"      |
+| "add_section_strings"            |
+| "add_section_benign_data"        |
+| "add_strings_to_overlay"         |
+| "add_imports"                    |
+| "rename_section"                 |
+| "remove_debug"                   |
+| "modify_optional_header"         |
+| "modify_timestamp"               |
 | "break_optional_header_checksum" |
-| "upx_unpack" |
-| "upx_pack" |
+| "upx_unpack"                     |
+| "upx_pack"                       |
 
 ---
 
@@ -51,14 +51,14 @@ tail emg.py
 ## Training
 
 ```bash
-python3 emg.py --path <samples>
+python3 emg.py --path <path to malware_samples>
 ```
 ---
 
 ### Example:
 
 ```bash
-python emg.py --path malware_samples --num_episodes 5 --output_dir .
+python3 emg.py --path malware_samples --num_episodes 5 --output_dir .
 ```
 
 ---
