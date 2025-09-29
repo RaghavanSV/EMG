@@ -13,21 +13,25 @@ This tool is intended strictly for **educational**, **research**, and **defensiv
 
 ## Modifications
 
-| "pad_overlay"                    |
-| "append_benign_data_overlay"     |
-| "append_benign_binary_overlay"   |
-| "add_bytes_to_section_cave"      |
-| "add_section_strings"            |
-| "add_section_benign_data"        |
-| "add_strings_to_overlay"         |
-| "add_imports"                    |
-| "rename_section"                 |
-| "remove_debug"                   |
-| "modify_optional_header"         |
-| "modify_timestamp"               |
-| "break_optional_header_checksum" |
-| "upx_unpack"                     |
-| "upx_pack"                       |
+# Modifications
+
+| Modification                     | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| `pad_overlay`                    | Pads the file’s overlay with additional bytes.                              |
+| `append_benign_data_overlay`     | Appends harmless data to the overlay section.                               |
+| `append_benign_binary_overlay`   | Appends a benign binary blob to the overlay.                                |
+| `add_bytes_to_section_cave`      | Injects extra bytes into unused space (cave) of a section.                  |
+| `add_section_strings`            | Creates a new section filled with benign strings.                           |
+| `add_section_benign_data`        | Adds a section containing benign/random data.                               |
+| `add_strings_to_overlay`         | Appends benign strings to the overlay area.                                 |
+| `add_imports`                    | Adds extra harmless imports to the import table.                            |
+| `rename_section`                 | Renames one or more sections to different labels.                           |
+| `remove_debug`                   | Removes debug information from the binary.                                  |
+| `modify_optional_header`         | Alters non-critical fields in the PE optional header.                       |
+| `modify_timestamp`               | Modifies the file’s timestamp metadata.                                     |
+| `break_optional_header_checksum` | Corrupts or invalidates the optional header checksum.                        |
+| `upx_unpack`                     | Unpacks the binary if it is UPX-compressed.                                 |
+| `upx_pack`                       | Re-packs the binary using UPX compression.                                  |
 
 ---
 
